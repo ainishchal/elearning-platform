@@ -1,0 +1,154 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Home.master.cs" Inherits="Inventry_Management.Home" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="academy, college, coursera, courses, education, elearning, kindergarten, lms, lynda, online course, online education, school, training, udemy, university">
+    <meta name="description" content="Elearn - LMS Online Education Course & School HTML Template">
+    <meta name="CreativeLayers" content="ATFN">
+    <!-- css file -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive stylesheet -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Title -->
+    <title>Elearning Platform</title>
+    <!-- Favicon -->
+    <link href="images/favicon.ico" sizes="128x128" rel="shortcut icon" type="image/x-icon" />
+    <link href="images/favicon.ico" sizes="128x128" rel="shortcut icon" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+    <div class="wrapper">
+        <form id="form1" runat="server">
+
+            <div class="preloader"></div>
+
+            <!-- Main Header Nav -->
+            <header class="header-nav menu_style_home_five home11 navbar-scrolltofixed stricky main-menu">
+                <div class="container">
+                    <!-- Ace Responsive Menu -->
+                    <nav>
+                        <!-- Menu Toggle btn-->
+                        <div class="menu-toggle">
+                            <img class="nav_logo_img img-fluid" src="images/header-logo5.png" alt="header-logo3.png">
+                            <button type="button" id="menu-btn">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <a href="#" class="navbar_brand float-left dn-smd">
+                            <img class="logo1 img-fluid" src="images/header-logo5.png" alt="header-logo2.png">
+                            <span>E - larn</span>
+                        </a>
+                        <!-- Responsive Menu Structure-->
+                        <!--Note: declare the Menu style in the data-menu-style="horizontal" (options: horizontal, vertical, accordion) -->
+                        <div class="ht_left_widget home5 home11 float-left">
+                            <ul>
+                                <li class="list-inline-item dn-1440">
+                                    <div class="ht_search_widget">
+                                        <div class="header_search_widget">
+                                            <form class="form-inline mailchimp_form">
+                                                <input type="email" class="form-control mb-2 mr-sm-2" id="inlineFormInputMail2" placeholder="Search for anything">
+                                                <button type="submit" class="btn btn-primary mb-2"><span class="flaticon-magnifying-glass"></span></button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-inline-item list_s dib-1440 dn">
+                                    <div class="search_overlay home5 home12">
+                                        <a id="search-button-listener" class="mk-search-trigger mk-fullscreen-trigger" href="#">
+                                            <span id="search-button"><i class="flaticon-magnifying-glass"></i></span>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul class="home5_shop_reg_widget float-right mb0 mt15">
+                            <li class="list-inline-item">
+                            <li class="list-inline-item"><a href="#" class="btn btn-md" data-toggle="modal" data-target="#exampleModalCenter"><i class="flaticon-user pr5"></i></a></li>
+                        </ul>
+
+
+                        <ul id="respMenu" class="ace-responsive-menu" data-menu-style="horizontal">
+                            
+                            
+                            <li class="last">
+                                <a href="page-contact.html"><span class="title">Contact</span></a>
+                            </li>
+                            
+                            <li class="list_four">
+                                <a href="#"><span class="title">Blog</span></a>
+                            </li>
+                            <li class="list_three">
+                                <a href="#"><span class="title">Events</span></a>
+                            </li>
+                            <li class="list_two">
+                                <a href="/Course_Panel.aspx"><span class="title">Courses</span></a>
+                                <!-- Level Two-->
+                            </li>
+                            <li class="list_one">
+                                <a href="#"><span class="title">Home</span></a>
+                                <!-- Level Two-->
+ 
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- End of Responsive Menu -->
+                </div>
+            </header>
+
+            <div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+
+        </form>
+
+
+        <section class="footer_bottom_area home12 pt50 pb80">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 offset-lg-3">
+                        <div class="copyright-widget text-center home12">
+                            <p>Copyright Elearn © 2019. All Rights Reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <a class="scrollToHome home5" href="#"><i class="flaticon-up-arrow-1"></i></a>
+    </div>
+    <!-- Wrapper End -->
+    <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="js/jquery-migrate-3.0.0.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mmenu.all.js"></script>
+    <script type="text/javascript" src="js/ace-responsive-menu.js"></script>
+    <script type="text/javascript" src="js/bootstrap-select.min.js"></script>
+    <script type="text/javascript" src="js/isotop.js"></script>
+    <script type="text/javascript" src="js/snackbar.min.js"></script>
+    <script type="text/javascript" src="js/simplebar.js"></script>
+    <script type="text/javascript" src="js/parallax-new.js"></script>
+    <script type="text/javascript" src="js/parallax.js"></script>
+    <script type="text/javascript" src="js/scrollto.js"></script>
+    <script type="text/javascript" src="js/jquery-scrolltofixed-min.js"></script>
+    <script type="text/javascript" src="js/jquery.counterup.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/progressbar.js"></script>
+    <script type="text/javascript" src="js/slider.js"></script>
+    <script type="text/javascript" src="js/timepicker.js"></script>
+    <!-- Custom script for all pages -->
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
